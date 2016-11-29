@@ -1,0 +1,23 @@
+{
+  "name": "aoc",
+  "version": "1.0.0",
+  "description": "2015 advent Of Code days",
+  "main": "aoc.js",
+  "scripts": {
+    "test": "node_modules/.bin/ava --tap | node_modules/.bin/tap-spec"
+  },
+  "author": "tom",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "ava": "^0.17.0",
+    "tap-spec": "^4.1.1"
+  },
+  "ava": {
+    "files": [
+      "specs/*_spec.js"
+    ]
+  },
+  "dependencies": {
+    "ansi-codes": "0.0.1-security"
+  }
+}
