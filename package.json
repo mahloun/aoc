@@ -4,13 +4,12 @@
   "description": "2015 advent Of Code days",
   "main": "aoc.js",
   "scripts": {
-    "test": "node_modules/.bin/ava --tap | node_modules/.bin/tap-spec"
+    "test": "node_modules/.bin/ava"
   },
   "author": "tom",
   "license": "UNLICENSED",
   "devDependencies": {
-    "ava": "^0.17.0",
-    "tap-spec": "^4.1.1"
+    "ava": "^0.17.0"
   },
   "ava": {
     "files": [
@@ -18,6 +17,7 @@
     ]
   },
   "dependencies": {
-    "js-combinatorics": "^0.5.2"
+    "js-combinatorics": "^0.5.2",
+    "lodash": "^4.17.2"
   }
 }
