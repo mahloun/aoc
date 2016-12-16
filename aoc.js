@@ -3,6 +3,7 @@
 const fs = require('fs');
 require('./src/9_1');
 require('./src/10_1');
+require('./src/12_1');
 
 function execute(module_name) {
   return module.children.filter(child =>
